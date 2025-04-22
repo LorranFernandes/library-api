@@ -18,7 +18,7 @@ public class CustomUserDetailsService implements UserDetailsService {
         Usuario usuario = service.obterPorLogin(login);
 
         if (usuario == null) {
-            throw new UsernameNotFoundException("Usuario nao encontrado");
+            throw new UsernameNotFoundException("Usuario não encontrado");
         }
 
         return User.builder()

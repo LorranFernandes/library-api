@@ -21,7 +21,7 @@ public class LoginViewController {
         if(authentication instanceof CustomAuthentication customAuth){
             System.out.println(customAuth.getUsuario());
         }
-        return "home" + authentication.getName();
+        return "Bem-vindo de volta " + authentication.getName();
     }
 
     @GetMapping("/authorized")
