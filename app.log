@@ -1,1 +1,1 @@
-2025-04-22T02:34:28.462-03:00  WARN 20380 --- [libraryapi] [library-db-poll housekeeper] com.zaxxer.hikari.pool.HikariPool        : library-db-poll - Thread starvation or clock leap detected (housekeeper delta=3h27s231ms761µs100ns).
+2025-04-23T09:40:03.060-03:00  WARN 20380 --- [libraryapi] [library-db-poll housekeeper] com.zaxxer.hikari.pool.HikariPool        : library-db-poll - Thread starvation or clock leap detected (housekeeper delta=9h31m48s938ms982µs900ns).

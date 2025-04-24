@@ -22,7 +22,7 @@ public class DataBaseConfiguration { // Por padrão o spring ja cria a conexão 
     String driver;
 
     // @Bean
-    public DataSource datasource() { // Não suporta grandes sistemas, só feito para mostrar que tem
+    public DataSource datasource() { // Não suporta grandes sistemas, só foi feito para mostrar que existe
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setUrl(url);
         ds.setUsername(username);
